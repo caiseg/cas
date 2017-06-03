@@ -29,7 +29,7 @@
 <spring:theme code="mobile.custom.css.file" var="mobileCss" text="" />
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
-	    <title>CAS &#8211; Central Authentication Service</title>
+	    <title>登录 &#8211; 公路网综合养护管理系统Cloud</title>
         <c:if test="${not empty requestScope['isMobile'] and not empty mobileCss}">
              <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
              <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -47,7 +47,10 @@
     <div class="flc-screenNavigator-view-container">
         <div class="fl-screenNavigator-view">
             <div id="header" class="flc-screenNavigator-navbar fl-navbar fl-table">
-				<h1 id="company-name">Jasig</h1>
-                <h1 id="app-name" class="fl-table-cell">Central Authentication Service (CAS--TEST)</h1>
+                <h1 id="app-name" class="fl-table-cell"><div class="logo">&nbsp;公路网综合养护管理系统</div></h1>
             </div>		
-            <div id="content" class="fl-screenNavigator-scroll-container">
+            <div id="content" class="fl-screenNavigator-scroll-container" style="height:566px;/* Rectangle 2: */
+background-image: -o-linear-gradient(93deg, #FFFFFF 21%, #B6E5F5 60%, #81D2EE 99%);
+background-image: -moz-linear-gradient(93deg, #FFFFFF 21%, #B6E5F5 60%, #81D2EE 99%);
+background-image: -ms-linear-gradient(93deg, #FFFFFF 21%, #B6E5F5 60%, #81D2EE 99%);
+background-image: linear-gradient(3deg, #FFFFFF 21%, #B6E5F5 60%, #81D2EE 99%);">
